@@ -1,12 +1,11 @@
-# README #
+# README - cps490-moranj13 #
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* This is a private repo for Jonathan Moran <moranj13@udayton.edu>  Capstone I - CPS 490 *
+*
 
 ### How do I get set up? ###
 
