@@ -12,6 +12,7 @@ CPS 490 - Capstone I, Fall 2021
 Instructor: Dr. Phu Phung
 
 Course Description:
+
 Examination of principles, practices, and methodology for the development of large software systems using data flow and object-oriented methodologies. 
 User interface design, software testing, and software project management. Selecting and planning a team project; involves team formation, project selection, project planning, and proposal writing and presentation.
 
@@ -28,10 +29,12 @@ User interface design, software testing, and software project management. Select
 
 ### What is this repository for? ###
 
-* This is a private repo for Jonathan Moran <moranj13@udayton.edu>  Capstone I - CPS 490 *
+This is a private repo for Jonathan Moran <moranj13@udayton.edu>  Capstone I - CPS 490
 
 Name: Jonathan (Jon) Moran 
+
 Email: moranj13@udayton.edu
+
 Photo: https://drive.google.com/file/d/1C_az4_Q-OEPGl5u8lH_vYubAOYzLuS_J/view?usp=sharing
 
 My Private Bitbucket Repo:
@@ -47,6 +50,7 @@ https://trello.com/b/lRZsXKxB/team-3-capstone-i-fall-2021
 ### About This Repository ###
 
 Jon Moran's Private Repo
+
 * Summary of set up
 * Configuration
 * Dependencies
