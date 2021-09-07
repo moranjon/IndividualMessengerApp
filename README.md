@@ -29,6 +29,7 @@ User interface design, software testing, and software project management. Select
 ### What is this repository for? ###
 
 * This is a private repo for Jonathan Moran <moranj13@udayton.edu>  Capstone I - CPS 490 *
+
 Name: Jonathan (Jon) Moran 
 Email: moranj13@udayton.edu
 Photo: https://drive.google.com/file/d/1C_az4_Q-OEPGl5u8lH_vYubAOYzLuS_J/view?usp=sharing
