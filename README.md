@@ -21,7 +21,11 @@ This is a private repo for Jonathan Moran <moranj13@udayton.edu>  Capstone I - C
 
 Name: Jonathan (Jon) Moran 
 Email: <moranj13@udayton.edu>
-Photo: https://drive.google.com/file/d/1C_az4_Q-OEPGl5u8lH_vYubAOYzLuS_J/view?usp=sharing
+
+Headshot: https://drive.google.com/file/d/1C_az4_Q-OEPGl5u8lH_vYubAOYzLuS_J/view?usp=sharing
+
+
+![Headshot](https://drive.google.com/file/d/1C_az4_Q-OEPGl5u8lH_vYubAOYzLuS_J/view?usp=sharing)
 
 My Private Bitbucket Repo:
 https://bitbucket.org/moranj13/cps490-moranj13
