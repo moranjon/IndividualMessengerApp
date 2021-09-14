@@ -24,7 +24,7 @@ Email: <moranj13@udayton.edu>
 
 
 
-![Headshot](http://ibb.co/wBtbqBt)
+![Headshot](https://i.ibb.co/JmZbTmZ/Jon-Moran-Picture-1.jpg)
 
 My Private Bitbucket Repo:
 https://bitbucket.org/moranj13/cps490-moranj13
