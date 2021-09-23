@@ -1,0 +1,29 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "description": "Messenger Node.js App for CPS 490 - by Jon Moran",
+  "main": "ChatServer.js",
+  "scripts": {
+    "test": "node ChatServer.js",
+    "start": "node ChatServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/moranj13/cps490-moranj13.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Socket.io",
+    "Capstone"
+  ],
+  "author": "Jon Moran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/moranj13/cps490-moranj13/issues"
+  },
+  "homepage": "https://bitbucket.org/moranj13/cps490-moranj13#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
