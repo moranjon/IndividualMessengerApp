@@ -26,6 +26,12 @@ socketio.on("welcome",(welcomemessage) => {
 socketio.on("chat", (chatmessage) => {
             document.getElementById('messages').innerHTML+= chatmessage + "<br>";
 });
+socketio.on("authenticated", () => {
+    document.getElementById("loginUI").style.display = "none";
+    document.getElementById("chatUI").style.display = "block";
+    document.getElementById('messages').innerHTML+=
+        "You are successfully logged in! Can Start chatting now.<br>";
+});
 function sendmessage(){
         socketio.emit("chat", document.getElementById('message').value);
 }
@@ -40,7 +46,7 @@ Please login first: <br>
 
 <p> </p>
 
-<div id="chatUI" >
+<div id="chatUI" style ="display:none">
 Your Message:
     <input type="text" id="message" placeholder="Enter your message ..."> 
     <button type="button" onclick="sendmessage()">Send</button>
