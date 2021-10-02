@@ -42,6 +42,14 @@ Please login first: <br>
     <input type="text" id="username" placeholder="Enter your name ..."> <br>
     <input type="password" id="password" placeholder="Password">  
     <button type="button" onclick="login()">JOIN</button>
+
+    <script>
+        socketio.on("Invalid login",(invalidLoginMessage) => {
+        document.getElementById('invalid login').innerHTML+= invalidLoginMessage + "<br>";
+        });
+    </script>
+
+    <div id="invalid login"></div>
 </div>
 
 <p> </p>
@@ -49,7 +57,7 @@ Please login first: <br>
 <div id="chatUI" style ="display:none">
 Your Message:
     <input type="text" id="message" placeholder="Enter your message ..."> 
-    <button type="button" onclick="sendmessage()">Send</button>
+    <button type="button" onclick="sendmessage()">Send</button>    
     <div id="messages"></div>
 </div>
 

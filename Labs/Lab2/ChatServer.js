@@ -46,9 +46,21 @@ var DataLayer = {
     info: 'Data Layer Implementation for Messenger',
     checklogin(username,password){
         //for testing only
-        console.log("checklogin: " + username + "/" + password);
-        console.log("Just for testing - return true");
-        return true;
+        if ((username=="Jon" && password=="123") || (username=="Bob" && password=="321")){
+            return true;
+        } else if (username=="" || password=="") {
+            var invalidLoginMessage = "User did not enter anything for username or password. Try again.";  
+            console.log(invalidLoginMessage);
+            socketio.sockets.emit("Invalid login", invalidLoginMessage);          
+            return false;
+        } else {
+        //console.log("checklogin: " + username + "/" + password);
+        //console.log("Just for testing - return true"); 
+            invalidLoginMessage = "Invalid login. Try Again"; 
+            console.log(invalidLoginMessage);
+            socketio.sockets.emit("Invalid login", invalidLoginMessage);          
+            return false;
+        }
     }
 }
 
