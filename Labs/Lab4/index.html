@@ -92,6 +92,16 @@
                 socketio.on("invalidLogin",(invalidLoginMessage) => {
                 alert("Invalid username and/or password. Please try again!" );
                 });
+                socketio.on("chat_history",(chat_history) => {
+            //debug if needed: e.g., JSON.stringify(chat_history))
+                if(chat_history && chat_history.length > 0){
+                    for(let index in chat_history){
+                        let chatmessage = chat_history[index].message
+                        let time = new Date(chat_history[index].timestamp)
+                        document.getElementById('messages').innerHTML+="On " + time + "," + chatmessage + "<br>";
+                    }
+                }
+            })
             </script>
 
             <br><a href="#" onclick="showRegistrationScreen();hideLoginScreen()">
