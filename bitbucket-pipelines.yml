@@ -18,7 +18,7 @@ pipelines:
         script:
           - echo $HEROKU_API_KEY
           - curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
-          - heroku containter:login
+          - heroku container:login
           - cd Labs/docker-lab
           - echo "staging version by moranj13@udayton.edu"
           - heroku container:push web -a $HEROKU_STAGING_APP_NAME
@@ -32,7 +32,7 @@ pipelines:
         script:
           - echo $HEROKU_API_KEY
           - curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
-          - heroku containter:login
+          - heroku container:login
           - cd Labs/docker-lab
           - echo "staging version by moranj13@udayton.edu"
           - heroku container:push web -a $HEROKU_STAGING_APP_NAME
