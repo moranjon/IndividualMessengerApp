@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "docker-lab",
   "version": "1.0.0",
   "description": "Messenger Node.js App for CPS 490 - by Jon Moran",
   "main": "ChatServer.js",
@@ -24,6 +24,7 @@
   "homepage": "https://bitbucket.org/moranj13/cps490-moranj13#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongodb": "^4.2.1",
     "socket.io": "^2.3.0"
   }
 }

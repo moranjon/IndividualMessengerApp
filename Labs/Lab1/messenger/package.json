@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "messenger",
   "version": "1.0.0",
   "description": "Messenger Node.js App for CPS 490 - by Jon Moran",
   "main": "ChatServer.js",
