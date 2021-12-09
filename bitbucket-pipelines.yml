@@ -30,7 +30,6 @@ pipelines:
         script:
           - echo $HEROKU_API_KEY
           - curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
-          - docker login --username=_ --password=$(heroku auth:token) registry.heroku.com
           - sudo heroku container:login
           - cd Labs/docker-lab
           - heroku container:push web -a $HEROKU_APP_NAME
