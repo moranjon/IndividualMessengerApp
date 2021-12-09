@@ -16,6 +16,7 @@ pipelines:
         script:
           - echo $HEROKU_API_KEY
           - curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+          - docker login --username=_ --password=$(heroku auth:token) registry.heroku.com
           - heroku container:login
           - cd Labs/docker-lab # just for your CPS490-Lab 5, change the directory if needed
           - echo "staging version by moranj13@udayton.edu"
@@ -30,6 +31,7 @@ pipelines:
         script:
           - echo $HEROKU_API_KEY
           - curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+          - docker login --username=_ --password=$(heroku auth:token) registry.heroku.com
           - heroku container:login
           - cd Labs/docker-lab
           - heroku container:push web -a $HEROKU_APP_NAME
